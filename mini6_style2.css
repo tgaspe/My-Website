@@ -1,0 +1,520 @@
+/* CSS Style Sheet for mini6 (Responsive Design and Page Generator Design)
+Theodoro Gasperin Terra Camargo
+McGill Id: 260842764 */
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+  font-family: "Lato", sans-serif,'Courier New', monospace, arial, sans-serif;
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+  background: ;
+}
+
+/* Header */
+
+#header {
+  width: 100%;
+  background-color: rgba(29, 30, 30, 0.7);
+  position: fixed;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 0;
+  z-index: 3;
+}
+
+.menu {
+  background-color:;
+  word-spacing: 50px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: ;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.menu a {
+  text-decoration: none;
+  font-family: ;
+  color: white;
+}
+
+.menu b {
+  font-size: 18px;
+  font-style: ;
+  font-family: ;
+  color:;
+  text-align: left;
+  margin: 0;
+}
+/* .menu h2 {
+  color: #a6edea;
+  text-align: left;
+  font-size: 10px;
+  margin: 0;
+} */
+
+/* ------ Body ------ */
+.container {
+  background-color: ;
+  position: relative;
+  height: auto;
+  margin-bottom: ;
+
+}
+.container img {
+  position: ;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  object-fit: ;
+  transform: scale(1.0);
+  overflow: ;
+
+}
+
+#title {
+  background-color: rgba(29, 30, 30, 0.7);
+  position: absolute;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 10px;
+  z-index: 2;
+  text-align: center;
+  width: 30%;
+  left: 35%;
+  top: 40%;
+}
+#title h1 {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  color: #a6edea;
+  padding: 5px;
+  margin: 0;
+  border-color: white;
+  font-size: 4vw;
+}
+
+#text_about {
+  background-color: #384454;
+  position: relative;
+  padding: 15px;
+  text-align: left;
+  color: black;
+  z-index: 2;
+  overflow: ;
+  top: 50%;
+}
+
+#text_about h1 {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  padding: 5px;
+  margin: 0;
+  color: white;
+}
+
+#pic_home1 {
+  transform: scale(1.0);
+}
+/* #text_image1 {
+  width: auto;
+  height: ;
+  left: 0%;
+} */
+
+
+
+
+
+
+/* Parrallax effect*/
+#about {
+  background-image: url(matter/pictures/jasper.jpg);
+  min-height: 650px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  #education {
+    background-image: url(matter/pictures/mexico.jpeg);
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Section 3 */
+  #experience {
+    background-image: url(matter/pictures/washington.jpg);
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: 60% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Section 4 */
+  #skills {
+    background-image: url(matter/pictures/road.jpg);
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #edu-expe {
+    background-color: #ecf241;
+  }
+  #edu-expe h1 {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+
+  }
+
+
+/* Hobbies */
+.hobbies div{
+  background: yellow;
+  padding: 15px;
+
+}
+
+#hobby {
+  background-image: url(matter/pictures/buts.jpg);
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: 30% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+}
+#fun_facts {
+  background-image: url(matter/pictures/halloween.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#countries {
+  background-image: url(matter/pictures/countries.jpg);
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: 20% 50%;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+#santaceia {
+  background-image: url(matter/pictures/drunk.jpg);
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ---- Footer ---- */
+
+#footer {
+  position: relative;
+  background-color: #28444c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  z-index: 3;
+}
+
+#footer h2 {
+  padding: 3px;
+  font-size: 14px;
+  margin: 5px;
+}
+#footer h3 {
+  padding: 3px;
+  color: grey;
+  font-size: 9px;
+  margin: 5px;
+}
+
+.info_footer {
+  padding: 15px;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+}
+
+/* For Mobiles WIDTH = 100% */
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Mobile Design */
+@media screen and (max-width: 450px) {
+
+}
+
+/* Desktop Design */
+@media only screen and (min-width: 450px) {
+  #header {
+    text-align: left;
+    position: relative;
+    background-color: ;
+  }
+
+  /* #title h1 {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    color: #a6edea;
+    padding: 5px;
+    margin: 0;
+    border-color: white;
+    font-size: 3vw;
+  } */
+
+  .menu a {
+    margin-left: 10px;
+  }
+
+  /* -- main -- */
+
+  /* Section 1 */
+
+  #about {
+    background-image: url(matter/pictures/jasper.jpg);
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #title {
+    background-color: rgba(29, 30, 30, 0.7);
+    position: absolute;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 2;
+    text-align: center;
+    width: 30%;
+    left: 35%;
+    top: 40%;
+  }
+  #title h1 {
+    color: white;
+    border-color: white;
+    font-size: 25px;
+  }
+
+  #text_about {
+    position: relative;
+    background-color: ;
+    border-radius: 0;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: left;
+    height: auto;
+    width: 100%;
+  }
+  #text_about h1 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+  }
+  #text_about p {
+    color: grey;
+  }
+
+/* Parrallax effect*/
+  #education {
+    background-image: url(matter/pictures/mexico.jpeg);
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Section 3 */
+  #experience {
+    background-image: url(matter/pictures/washington.jpg);
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: 60% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Section 4 */
+  #skills {
+    background-image: url(matter/pictures/road.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /* Text section */
+  #edu-expe {
+    background-color: #ecf241;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  #edu-expe h1 {
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+    padding: 10px;
+  }
+
+  .text {
+    position: relative;
+    background-color: ;
+    border-radius: 0;
+    text-align: left;
+    height: auto;
+  }
+
+  #text_image2 {
+    left: 0%;
+    top: 80%;
+  }
+  #text_image2 h1 {
+    font-size: 20px;
+    color: grey;
+    text-align: left;
+    border-color: black;
+  }
+
+  #text_image3 {
+    width: ;
+    left: 0%;
+    top: 80%;
+  }
+  #text_image3 h1 {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    border-color: white;
+  }
+
+
+
+  #text_image4 {
+    height: 100%;
+    width: ;
+    left: 0%;
+    top: 0%;
+  }
+
+  #text_image4 h1 {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    border-color: white;
+  }
+
+  #text_image5 {
+    height: auto;
+    width: ;
+    left: ;
+    top:;
+  }
+
+  #text_image5 h1 {
+    font-size: 20px;
+    color: grey;
+    text-align: left;
+    border-color: black;
+  }
+
+  /* Hobbies */
+  .hobbies div{
+    background: yellow;
+    padding: 15px;
+    /* padding-top: 60px; */
+  }
+
+  #hobby {
+    background-image: url(matter/pictures/buts.JPG);
+    min-height: 450px;
+    background-attachment: fixed;
+    background-position: 100% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+  }
+  #fun_facts {
+    background-image: url(matter/pictures/halloween.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #countries {
+    background-image: url(matter/pictures/countries.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #santaceia {
+    background-image: url(matter/pictures/drunk.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* footer */
+  #footer {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+
+
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}

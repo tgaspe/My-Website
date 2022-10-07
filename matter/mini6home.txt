@@ -1,0 +1,71 @@
+<!------------ Home ---------->
+<div class="row container" id="about">
+  <div class="picture_text " id="title">
+    <h1>THEODORO</h1>
+  </div>
+</div>
+<!-- Text About Myself -->
+<div class="picture_text" id="text_about">
+  <h1>ABOUT MYSELF</h1>
+  <p>
+    I come from a small city in the country side of Brazil, and when I was 19 years old I came to Canada to study at McGill University. Since then, I hava met many new people, and explored many new places. My education in Life Sciences taught me about the wonders of molecular biology, microbiology, and evolution. It, also, immersed me in a field of constant discovery and science with many real-world applications in medicine, biotechnology, forensics, and other areas. My minor, computer sciences, taught me important skills and tools in many programming languages, very useful to analyze the current vast biological data available.
+  </p>
+</div>
+
+<!-- Mexico -->
+<div class="row container" id="education">
+</div>
+<!-- Washington -->
+<div class="row container" id="experience">
+</div>
+<!-- Tree Planting -->
+<div class="row container" id="skills">
+</div>
+
+<!-- Qualifications -->
+<div class="row container" id="edu-expe">
+  <div class="col-12 text" id="text_image2">
+    <h1>EDUCATION</h1>
+    <ul>
+      <li><lor>McGill University - Bachelors of Science in Agricultural & Environmental Sciences - Field of Study: Life Sciences and Computer Sciences </lor></li>
+      <li><lor>UFRGS - One semester in the course of Biotechnology</lor></li>
+    </ul>
+  </div>
+  <div class="col-8 text" id="text_image3">
+    <h1>EXPERIENCE</h1>
+    <ul>
+      <li><lor>Tree Planting, northern regions of Ontario and Alberta
+        Summers of 2019, 2020, 2021
+      </lor></li>
+      <li><lor>Volunteering at Bordignon Lab, Macdonald Campus, McGill
+          From November of 2018 to april 2019
+          Lab experience in a reproductive biology laboratory - learning about somatic cell reprogramming,  animal cloning, oocyte and embryo development
+      </lor></li>
+      <li><lor>Floor Fellow, McGill Student Residences
+        Winter 2019, Fall 2019, Winter 2020, Fall 2020
+      </lor></li>
+    </ul>
+  </div>
+
+  <div class="col-4 text" id="text_image4">
+    <h1>COMPUTER SKILLS</h1>
+    <ul>
+      <li><lor>Java</lor></li>
+      <li><lor>Python</lor></li>
+      <li><lor>C</lor></li>
+      <li><lor>Bash</lor></li>
+      <li><lor>Autocad</lor></li>
+      <li><lor>Web Developing</lor></li>
+    </ul>
+  </div>
+
+  <div class="col-12 text" id="text_image5">
+    <h1>AWARDS</h1>
+    <ul>
+      <li><lor>BRAZILIAN BIOLOGY OLYMPIC classification: 127 of 65 347 participants. (2016)</lor></li>
+      <li><lor>BRAZILIAN CHEMISTRY OLYMPIC classification: 130 in the modality B (Senior year). (2016)</lor></li>
+      <li><lor>HONORED MENTION at Chemistry Olympics of Rio Grande do Sul. (2015)</lor></li>
+      <li><lor>HONORED MENTION at Chemistry Olympics of Rio Grande do Sul (my State). (2014)</lor></li>
+    </ul>
+  </div>
+</div>

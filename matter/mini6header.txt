@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mini6_style2.css">
+    <title>mini6</title>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <div class="row" id="header">
+      <div class="col-12 menu" >
+        <b><a href="mini6.php?Page=Home">HOME</a></b>
+        <b><a href="mini6.php?Page=Hobbies">HOBBIES</a></b>
+      </div>
+    </div>

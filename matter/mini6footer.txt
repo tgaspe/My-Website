@@ -1,0 +1,21 @@
+<!-- Footer -->
+<div class="row container">
+  <img src="matter/pictures/ny.jpg" alt="Picture not shown" id="end_img">
+  <div class="col-12" id="footer">
+    <div class="info_footer">
+      <h2 style="color: white"><b>THEODORO GASPERIN TERRA CAMARGO</b></h2>
+      <h2 style="color: #a6edea">Life Science Student at</h2>
+      <h2 style="color: white">McGill University</h2>
+      <h2 style="color: #a6edea">theodorogtc@gmail.com</h2>
+    </div>
+
+    <h3>Copyright 2022</h3>
+    <h3>Site by Theodoro Gasperin Terra Camargo. All Rights Reserved.</h3>
+  </div>
+
+</div>
+
+
+
+</body>
+</html>

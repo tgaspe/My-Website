@@ -1,0 +1,38 @@
+<!-- Hobbies -->
+<div class="hobbies">
+  <div class="col-12" id="hobby">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Travel</li>
+      <li>Running</li>
+      <li>Swimming</li>
+      <li>Video Games</li>
+      <li>Playing Harmonica</li>
+      <li>3D printing</li>
+    </ul>
+  </div>
+  <div class="col-12" id="fun_facts">
+    <h2>A Fun Fact about me:</h2>
+    <p>Got lost on mountain once! <br>Had to call the park rangers to find me AUHUAHHA! </p>
+    <img src="matter/pictures/j.jpg" alt="">
+  </div>
+  <div class="col-12" id="countries">
+    <h2>Countries I visited:</h2>
+    <ul>
+      <li>Brazil</li>
+      <li>Argentina</li>
+      <li>Uruguay</li>
+      <li>Paraguay</li>
+      <li>United States</li>
+      <li>Canada</li>
+      <li>Mexico</li>
+      <li>Costa Rica</li>
+      <li>Guatemala</li>
+    </ul>
+  </div>
+
+  <div class="col-12" id="santaceia">
+
+  </div>
+
+</div>

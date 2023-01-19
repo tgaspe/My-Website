@@ -19,7 +19,6 @@ html {
 body {
   font-size: 14px;
   margin: 0;
-  background: ;
 }
 
 /* Header */
@@ -131,18 +130,9 @@ body {
 #pic_home1 {
   transform: scale(1.0);
 }
-/* #text_image1 {
-  width: auto;
-  height: ;
-  left: 0%;
-} */
 
 
-
-
-
-
-/* Parrallax effect*/
+/* -- Parrallax effect -- */
 #about {
   background-image: url(matter/pictures/jasper.jpg);
   min-height: 650px;
@@ -192,7 +182,7 @@ body {
   }
 
 
-/* Hobbies */
+/* ---- Hobbies ----- */
 .hobbies div{
   background: yellow;
   padding: 15px;
@@ -200,7 +190,7 @@ body {
 }
 
 #hobby {
-  background-image: url(matter/pictures/buts.jpg);
+  background-image: url(matter/pictures/costa_rica.jpg);
   min-height: 600px;
   background-attachment: fixed;
   background-position: 30% 50%;
@@ -234,7 +224,32 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: 2;
+  color: white;
 }
+#santaceia a {
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: white;
+}
+
+/* ---- Essay ----- */
+#essay {
+  background-image: url(matter/pictures/attack_on_titan2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey; 
+  
+}
+#essay h1 {padding-top: 50px;}
+#essay p {text-align: left;}
+
 
 /* ---- Footer ---- */
 
@@ -461,7 +476,7 @@ body {
   }
 
   #hobby {
-    background-image: url(matter/pictures/buts.JPG);
+    background-image: url(matter/pictures/costa_rica.jpg);
     min-height: 450px;
     background-attachment: fixed;
     background-position: 100% 80%;
@@ -493,6 +508,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  #essay {
+    padding-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   /* footer */

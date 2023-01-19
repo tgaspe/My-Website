@@ -14,5 +14,8 @@
       <div class="col-12 menu" >
         <b><a href="mini6.php?Page=Home">HOME</a></b>
         <b><a href="mini6.php?Page=Hobbies">HOBBIES</a></b>
+        <b><a href="matter/CS_CV.pdf">CV</a></b>
+        <b><a href="https://github.com/tgaspe">GitHub</a></b>
+        
       </div>
     </div>
